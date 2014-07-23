@@ -20,3 +20,8 @@ persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
 
 ro.qualcomm.cabl=0
+
+# Find7 Common Hardware Info
+ro.device.gpu=Adreno 330
+ro.device.rear_cam=13 MP
+ro.device.front_cam=5 MP

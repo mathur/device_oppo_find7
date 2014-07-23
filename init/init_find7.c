@@ -50,9 +50,15 @@ static void import_kernel_nv(char *name, int for_emulator)
                 !strcmp(value, "23")) {
             property_set("ro.sf.lcd_density", "640");
             property_set("ro.oppo.device", "find7s");
+            property_set("ro.device.chipset", "Qualcomm MSM8974AC Snapdragon 801");
+            property_set("ro.device.cpu", "Quad-core 2.5 GHz Krait 400");
+            property_set("ro.device.screen_res", "1440x2560");
         } else {
             property_set("ro.sf.lcd_density", "480");
             property_set("ro.oppo.device", "find7a");
+            property_set("ro.device.chipset", "Qualcomm MSM8974AB Snapdragon 801");
+            property_set("ro.device.cpu", "Quad-core 2.3 GHz Krait 400");
+            property_set("ro.device.screen_res", "1080x1920");
         }
     }
 }
