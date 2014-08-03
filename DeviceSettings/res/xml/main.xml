@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- defaultValues need to be in sync with the default kernel values! -->
+
+	<PreferenceCategory
+	android:title="@string/category_doubletapgesture_title">
+	    <!-- Backlight Disable Options -->
+	    <CheckBoxPreference
+	        android:key="double_tap_gesture"
+	        android:title="@string/doubletapgesture_title_head"
+	        android:summary="@string/doubletapgesture_summary_head"
+	        android:defaultValue="0" />
+	</PreferenceCategory>
+</PreferenceScreen>

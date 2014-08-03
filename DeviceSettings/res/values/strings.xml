@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Device Settings</string>
+
+    <string name="category_doubletapgesture_title">Double Tap to Wake</string>
+    <string name="doubletapgesture_title_head">Enable Double Tap to Wake</string>
+    <string name="doubletapgesture_summary_head">Select to enable the double tap to wake gesture</string>
+
+</resources>
