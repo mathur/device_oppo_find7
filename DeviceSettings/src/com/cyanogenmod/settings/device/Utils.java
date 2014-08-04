@@ -1,4 +1,4 @@
-package com.aokp.settings.device;
+package com.cyanogenmod.settings.device;
 
 import java.io.File;
 import java.io.FileNotFoundException;

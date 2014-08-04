@@ -1,4 +1,4 @@
-package com.aokp.settings.device;
+package com.cyanogenmod.settings.device;
 
 import android.content.Context;
 import android.content.SharedPreferences;
