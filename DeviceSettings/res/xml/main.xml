@@ -2,8 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 	<!-- defaultValues need to be in sync with the default kernel values! -->
 
-	<PreferenceCategory
-	android:title="@string/category_screenoffgesture_title">
+	<PreferenceCategory android:title="@string/category_screenoffgesture_title">
 	    <!-- Double Tap Gesture Options -->
 	    <CheckBoxPreference
 	        android:key="doubletapgesture"
@@ -30,8 +29,7 @@
 	        android:defaultValue="0" />
 	</PreferenceCategory>
 
-	<PreferenceCategory
-	android:title="@string/category_capacitive_title">
+	<PreferenceCategory android:title="@string/category_capacitive_title">
 	    <!-- Capacitive Button Options -->
 	    <CheckBoxPreference
 	        android:key="capacitivebuttons"
