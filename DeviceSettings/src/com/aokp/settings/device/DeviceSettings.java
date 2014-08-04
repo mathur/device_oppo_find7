@@ -14,6 +14,12 @@ import android.preference.PreferenceCategory;
 
 public class DeviceSettings extends PreferenceActivity  {
 
+    public static final String KEY_DOUBLETAPGESTURE = "doubletapgesture";
+    public static final String KEY_CAMERAGESTURE = "cameragesture";
+    public static final String KEY_MUSICGESTURE = "musicgesture";
+    public static final String KEY_TORCHGESTURE = "torchgesture";
+    public static final String KEY_CAPACITIVEBUTTONS = "capacitivebuttons";
+
     private TwoStatePreference mDoubleTapGesture;
     private TwoStatePreference mCameraGesture;
     private TwoStatePreference mMusicGesture;
