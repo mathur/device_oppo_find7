@@ -11,7 +11,7 @@
 	        android:defaultValue="0" />
 	    <!-- Camera Gesture Options -->
 	    <CheckBoxPreference
-	        android:key="cameragesture"githu
+	        android:key="cameragesture"
 	        android:title="@string/cameragesture_title_head"
 	        android:summary="@string/cameragesture_summary_head"
 	        android:defaultValue="0" />
