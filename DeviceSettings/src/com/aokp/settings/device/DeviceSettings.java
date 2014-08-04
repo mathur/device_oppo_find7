@@ -15,6 +15,10 @@ import android.preference.PreferenceCategory;
 public class DeviceSettings extends PreferenceActivity  {
 
     private TwoStatePreference mDoubleTapGesture;
+    private TwoStatePreference mCameraGesture;
+    private TwoStatePreference mMusicGesture;
+    private TwoStatePreference mTorchGesture;
+    private TwoStatePreference mCapacitiveButtons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,21 @@ public class DeviceSettings extends PreferenceActivity  {
         mDoubleTapGesture.setEnabled(DoubleTapGesture.isSupported());
         mDoubleTapGesture.setOnPreferenceChangeListener(new DoubleTapGesture());
 
+        mCameraGesture = (TwoStatePreference) findPreference(KEY_CAMERAGESTURE);
+        mCameraGesture.setEnabled(CameraGesture.isSupported());
+        mCameraGesture.setOnPreferenceChangeListener(new CameraGesture());
+
+        mMusicGesture = (TwoStatePreference) findPreference(KEY_MUSICGESTURE);
+        mMusicGesture.setEnabled(MusicGesture.isSupported());
+        mMusicGesture.setOnPreferenceChangeListener(new MusicGesture());
+
+        mTorchGesture = (TwoStatePreference) findPreference(KEY_TORCHGESTURE);
+        mTorchGesture.setEnabled(TorchGesture.isSupported());
+        mTorchGesture.setOnPreferenceChangeListener(new TorchGesture());
+
+        mCapacitiveButtons = (TwoStatePreference) findPreference(KEY_CAPACITIVEBUTTONS);
+        mCapacitiveButtons.setEnabled(CapacitiveButtons.isSupported());
+        mCapacitiveButtons.setOnPreferenceChangeListener(new CapacitiveButtons());
     }
 
     @Override

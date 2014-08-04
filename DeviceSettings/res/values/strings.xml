@@ -2,8 +2,22 @@
 <resources>
     <string name="app_name">Device Settings</string>
 
-    <string name="category_doubletapgesture_title">Double Tap to Wake</string>
-    <string name="doubletapgesture_title_head">Enable Double Tap to Wake</string>
-    <string name="doubletapgesture_summary_head">Select to enable the double tap to wake gesture</string>
+    <string name="category_screenoffgesture_title">Screen Off Gestures</string>
+    <string name="category_capacitive_title">Capacitive Buttons</string>
+
+    <string name="doubletapgesture_title_head">Double Tap to Wake</string>
+    <string name="doubletapgesture_summary_head">Enable/disable the double tap to wake gesture</string>
+
+    <string name="cameragesture_title_head">Camera gesture</string>
+    <string name="cameragesture_summary_head">Enable/disable the camera gesture</string>
+
+    <string name="musicgesture_title_head">Music gesture</string>
+    <string name="musicgesture_summary_head">Enable/disable the music gesture</string>
+
+    <string name="torchgesture_title_head">Torch gesture</string>
+    <string name="torchgesture_summary_head">Enable/disable the torch gesture</string>
+
+    <string name="capacitivebuttonenable_title_head">Capacitive buttons</string>
+    <string name="capacitivebuttonenable_summary_head">Enable/disable the capacitive buttons</string>
 
 </resources>

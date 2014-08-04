@@ -9,5 +9,9 @@ public class Startup extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, final Intent bootintent) {
         DoubleTapGesture.restore(context);
+        CameraGesture.restore(context);
+        MusicGesture.restore(context);
+        TorchGesture.restore(context);
+        CapacitiveButtons.restore(context);
     }
 }

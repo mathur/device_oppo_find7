@@ -3,12 +3,40 @@
 	<!-- defaultValues need to be in sync with the default kernel values! -->
 
 	<PreferenceCategory
-	android:title="@string/category_doubletapgesture_title">
-	    <!-- Backlight Disable Options -->
+	android:title="@string/category_screenoffgesture_title">
+	    <!-- Double Tap Gesture Options -->
 	    <CheckBoxPreference
-	        android:key="double_tap_gesture"
+	        android:key="doubletapgesture"
 	        android:title="@string/doubletapgesture_title_head"
 	        android:summary="@string/doubletapgesture_summary_head"
 	        android:defaultValue="0" />
+	    <!-- Camera Gesture Options -->
+	    <CheckBoxPreference
+	        android:key="cameragesture"githu
+	        android:title="@string/cameragesture_title_head"
+	        android:summary="@string/cameragesture_summary_head"
+	        android:defaultValue="0" />
+	    <!-- Music Gesture Options -->
+	    <CheckBoxPreference
+	        android:key="musicgesture"
+	        android:title="@string/musicgesture_title_head"
+	        android:summary="@string/musicgesture_summary_head"
+	        android:defaultValue="0" />
+	    <!-- Torch Gesture Options -->
+	    <CheckBoxPreference
+	        android:key="torchgesture"
+	        android:title="@string/torchgesture_title_head"
+	        android:summary="@string/torchgesture_summary_head"
+	        android:defaultValue="0" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+	android:title="@string/category_capacitive_title">
+	    <!-- Capacitive Button Options -->
+	    <CheckBoxPreference
+	        android:key="capacitivebuttons"
+	        android:title="@string/capacitivebuttonenable_title_head"
+	        android:summary="@string/capacitivebuttonenable_summary_head"
+	        android:defaultValue="1" />
 	</PreferenceCategory>
 </PreferenceScreen>
